@@ -17,17 +17,17 @@ Host myname
 
 You can add more information like `User yourusername` to this file.
 
-## Server-Side steps[ ¶](https://martin-thoma.com/how-to-use-sublime-text-via-ssh/#server-side-steps)
+## [Server-Side steps](https://martin-thoma.com/how-to-use-sublime-text-via-ssh/#server-side-steps)
 
 1. Download the `rmate` script:
    `curl https://raw.githubusercontent.com/aurora/rmate/master/rmate > rmate`
 2. Execute `./rmate yourfile`. It will open in your local Sublime Text!
 
-## Improvements[ ¶](https://martin-thoma.com/how-to-use-sublime-text-via-ssh/#improvements)
+## [Improvements](https://martin-thoma.com/how-to-use-sublime-text-via-ssh/#improvements)
 
 These steps have to be done server-side.
 
-### With Root access[ ¶](https://martin-thoma.com/how-to-use-sublime-text-via-ssh/#with-root-access)
+### [With Root access](https://martin-thoma.com/how-to-use-sublime-text-via-ssh/#with-root-access)
 
 It's not so nice to open files with `~/rmate filename` all the time. You can use `rmate filename` after executing this command:
 
@@ -42,7 +42,7 @@ You can use other paths than `/usr/local/bin/`. Look at your `PATH` for candidat
 echo $PATH
 ```
 
-### Without Root access[ ¶](https://martin-thoma.com/how-to-use-sublime-text-via-ssh/#without-root-access)
+### [Without Root access](https://martin-thoma.com/how-to-use-sublime-text-via-ssh/#without-root-access)
 
 When you don't have root access, you can't create a symlink for most (eventually even all) folders in your `PATH`. But you can expand your `PATH`:
 
